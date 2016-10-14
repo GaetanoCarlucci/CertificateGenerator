@@ -16,14 +16,14 @@ DNS.1 = localhost
 IP.1 = 127.0.0.1
 ```
 
-The run generate-certs.sh:
+The run:
 ```
 ./generate-certs.sh
 ```
 
 This will create the dir ```out``` which contains what we need.
 
-In particular the private key and the certificate should be added to the Web Server.
+The private key and the certificate should be added to the Web Server.
 
 The private key of the Web server is:
 ```
