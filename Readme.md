@@ -2,16 +2,14 @@
 
 This script creates self-signed SSL certificate that expires in one year. It can be used for testing purpose.
 
-This work is based [this](https://www.chromium.org/quic/playing-with-quic).
+This script has been is based on the[this](https://www.chromium.org/quic/playing-with-quic).
 
 
 ### Example: Generate a self-signed certificate for localhost server.
 
 Modify the file ```leaf.cnf```  according to your server info. In the case of localhost be sure that these fields are correctly set:
 ```
-....
 CN = 127.0.0.1
-
 .....
 [other_hosts]
 DNS.1 = localhost
