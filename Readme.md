@@ -1,6 +1,6 @@
 ## CertificateGenerator
 
-This script creates self-signed SSL certificate that expires in one year. It can be used for testing purpose.
+This script generates a CA and leaf certificates which  expires in one year.  It can be used for testing purpose.
 
 This script is based on the work that has been done for [QUIC](https://www.chromium.org/quic/playing-with-quic).
 
