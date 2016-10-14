@@ -35,7 +35,7 @@ or this:
 ```
 out/leaf_cert.key
 ```
-This depends on the requirements of your server.
+This depends on the requirements of the Web server.
 #### Certificate of the Web Server
 The certificate of the Web server is:
 ```
