@@ -16,7 +16,7 @@ DNS.1 = localhost
 IP.1 = 127.0.0.1
 ```
 
-The run ```generate-certs.sh```:
+The run generate-certs.sh:
 ```
 ./generate-certs.sh
 ```
