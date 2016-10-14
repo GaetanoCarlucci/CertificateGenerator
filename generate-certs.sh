@@ -1,12 +1,5 @@
 #!/bin/sh
 
-# Copyright 2015 The Chromium Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-# This script generates a CA and leaf cert which can be used for the
-# quic_server.
-
 try() {
   "$@" || (e=$?; echo "$@" > /dev/stderr; exit $e)
 }
