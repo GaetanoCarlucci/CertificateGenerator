@@ -1,6 +1,6 @@
 ## CertificateGenerator
 
-This script generates a CA and leaf certificates which  expires in one year.  It can be used for testing purpose.
+This script generates a CA and leaf certificates which  expires in one year. It can be used for testing purpose.
 
 This script is based on the work that has been done for [QUIC](https://www.chromium.org/quic/playing-with-quic).
 
@@ -8,7 +8,7 @@ This script is based on the work that has been done for [QUIC](https://www.chrom
 ### Example: Generate a self-signed certificate for a localhost server (127.0.0.1)
 
 #### Configuration
-Modify the file ```leaf.cnf```  according to your server info. In the case of localhost be sure that these fields are correctly set:
+Modify the file ```leaf.cnf```  according to Web server info. In the case of localhost be sure that these fields are correctly set:
 ```
 CN = 127.0.0.1
 .....
