@@ -33,7 +33,7 @@ try openssl req \
   -new \
   -keyout out/leaf_cert.key \
   -out out/leaf_cert.req \
-  -config leaf2.cnf
+  -config leaf.cnf
 
 # Convert the key to pkcs8.
 try openssl pkcs8 \
