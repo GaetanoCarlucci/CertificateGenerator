@@ -49,7 +49,7 @@ The CA certificate is:
 ```
 out/2048-sha256-root.pem
 ```
-and it has t obe added on the client host:
+and it has to be added on the client host:
 ```
 cp out/2048-sha256-root.pem /usr/local/share/ca-certificates/2048-sha256-root.crt
 update-ca-certificates --fresh
